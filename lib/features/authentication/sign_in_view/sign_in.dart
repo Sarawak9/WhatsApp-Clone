@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:whatsapp_clone/features/authentication/sign_up_view/sign_up.dart';
 import 'package:whatsapp_clone/features/home_view/home_view.dart';
 import 'package:whatsapp_clone/core/utils/constants/app_assets.dart';
