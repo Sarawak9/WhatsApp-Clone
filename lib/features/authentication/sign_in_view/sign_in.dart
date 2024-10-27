@@ -23,7 +23,7 @@ class _SignInViewState extends State<SignInView> {
               email: _emailController.text, password: _passwordController.text);
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const HomeView()),
+        MaterialPageRoute(builder: (context) => HomeView()),
       );
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
