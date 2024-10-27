@@ -38,7 +38,7 @@ class _SignInViewState extends State<SignInView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF8F8F8),
+      backgroundColor: const Color.fromARGB(255, 255, 255, 255),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
@@ -78,7 +78,7 @@ class _SignInViewState extends State<SignInView> {
                           vertical: 20, horizontal: 10),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(50),
-                        borderSide: BorderSide(color: Colors.black26),
+                        borderSide: const BorderSide(color: Colors.black26),
                       ),
                     ),
                     style: const TextStyle(color: Colors.black),
@@ -113,7 +113,7 @@ class _SignInViewState extends State<SignInView> {
                           vertical: 20, horizontal: 10),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(50),
-                        borderSide: BorderSide(color: Colors.black26),
+                        borderSide: const BorderSide(color: Colors.black26),
                       ),
                     ),
                     style: const TextStyle(color: Colors.black),
